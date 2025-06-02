@@ -1,2 +1,2 @@
-# intervue
+# Intervue
 Integrated Interview Management Platform 
