@@ -1,1 +1,29 @@
-<h1>Landing Page</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar with Reminders</title>
+    <link rel="stylesheet" href="dashboard.css" />
+  </head>
+  <body>
+    <div class="calendar">
+      <header>
+        <button onclick="changeMonth(-1)">&#8592;</button>
+        <h2 id="monthYear"></h2>
+        <button onclick="changeMonth(1)">&#8594;</button>
+      </header>
+      <div class="weekdays">
+        <div>Sun</div>
+        <div>Mon</div>
+        <div>Tue</div>
+        <div>Wed</div>
+        <div>Thu</div>
+        <div>Fri</div>
+        <div>Sat</div>
+      </div>
+      <div class="days" id="days"></div>
+    </div>
+  </body>
+  <script src="dashboard.js"></script>
+</html>

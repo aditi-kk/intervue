@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f0f0;
+}
+.calendar {
+  width: 400px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.calendar header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.calendar header button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.calendar h2 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+.weekdays,
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  margin-top: 10px;
+}
+.weekdays div {
+  font-weight: bold;
+  color: #555;
+}
+.days div {
+  padding: 10px 5px;
+  border-radius: 6px;
+  min-height: 50px;
+  position: relative;
+  cursor: pointer;
+}
+.days div.today {
+  background: #2196f3;
+  color: white;
+}
+.reminder {
+  font-size: 0.7rem;
+  color: #333;
+  margin-top: 4px;
+  display: block;
+  background: #e0f7fa;
+  border-radius: 4px;
+  padding: 2px;
+}
