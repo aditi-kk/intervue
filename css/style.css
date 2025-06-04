@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+html,body{
+	height: 100%;
+	width: 100%;
+
+}
+.navbar {
+	background-color: #ADD8E6;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+.navbar-brand{
+	min-height: 35px;
+	padding: 0px 0px 20px;
+}
+
+
+.navbar-default .navbar-nav li a{
+	color: #000000;
+
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
+	color: #000000;
+
+}
+#home{
+	background-image: url('d1.jpg') no-repeat center fixed;
+	display: table;
+	height:100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+.landing-text{
+	display:table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text h1{
+	font-size: 75px;
+	font-weight: 900%;
+	color: #4A235A;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+
+}
+.landing-text h3{
+	font-size: 30px;
+	font-weight: 700%;
+	color: #17202A;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+	text-align: center;
+font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+
+#fixed{
+	
+    display: table;
+    height: 60%;
+    position: 100%;
+    background-size:cover;
+    background-opacity: 50%;
+}
+footer{
+	width: 100%;
+	background-color: #ADD8E6;
+	padding: 5% 5% 10% 5%;
+	color: #FFF;
+}
+.fa{
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF;
+}
+.fa:hover{
+	color: #F9F6EE;
+
+	text-decoration: none;
+}
+.icon{
+	max-width: 200px;
+}
+@media (max-width: 768px) {
+	.landing-text h1{
+		font-size: 300%;
+	}
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon{
+		padding-top: 5%;
+		max-width: 100px;
+	}
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+
+
+    transition: 0.3s;
+    margin:6%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+
+.card-body {
+    padding:8px;
+}
+img {
+  border-radius: 30%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  
+  
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.border{
+	display: block;
+	margin: auto;
+	width: 160px;
+	height: 3px;
+	background:#1A5276;
+	margin-bottom: 40px;
+}
+.ps{
+	margin-bottom: 40px;
+}
+.ps a{
+	display: inline-block;
+	margin: 0 30px;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.ps a img{
+	width: 100%
+	}
+.ps a:hover>img{
+	filter: none;
+}
+.section{
+	width:600px;
+	margin: auto;
+	font-size: 20px;
+	color: white;
+	text-align: justify;
+	height: 0;
+	overflow: hidden;
+}
+.section:target{
+	height: auto;
+}
+.name{
+	display: block;
+	margin: 30px
+	
+	text-transform: uppercase;
+	font-size: 22px;
+
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+.col-sm-4{
+color: #FFF;
+}
+<	

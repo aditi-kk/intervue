@@ -1,0 +1,79 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url('C:/Users/Akash/Downloads/Compressed/tutorial-26/Bootstrap Site Starter Files/Bootstrap Website Files/r.jpg');
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+}
+h1{
+	text-align: center;
+	padding:10px;
+	color: #943126;
+}
+h2{
+	text-align: center;
+	padding:20px;
+}
+.register{
+	background:rgba(0,0,0,0.8);
+	width: 500px;
+	margin: auto;
+	color: white;
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 10px; 
+	box-sizing: border-box;
+	color: #fff;
+
+
+}
+#register{
+	margin-left: 50px;
+
+
+}
+label{
+	color:white;
+	font-family:sans-serif;
+	font-size: 18px;
+	font-style: italic;
+}
+#name{
+	width: 300px;
+	border: none;
+	border-radius:3px;
+	outline:0;
+	padding:7px;
+}
+#ph{
+   width: 65px;
+   padding: 7px;
+   border:none;
+   border-radius: 3px;
+   outline: 0;
+}
+#num{
+	width: 230px;
+	padding: 7px;
+	border:none;
+	border-radius:3px;
+	outline: 0;
+}
+#sub{
+	width:200px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	border:none;
+	border-radius: 3px;
+	outline: 0;
+}
+.down-box{
+	position: relative; 
+}
